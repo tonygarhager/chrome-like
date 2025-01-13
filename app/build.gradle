@@ -20,7 +20,16 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha7'
+    compile files('libs/B4AShared.jar')
+    compile files('libs/Reflection.jar')
+    compile files('libs/Core.jar')
+    compile files('libs/DateUtils.jar')
+    compile files('libs/JSON.jar')
+    compile files('libs/Phone.jar')
+    compile files('libs/StringUtils.jar')
+    compile files('libs/Sql.jar')
+    compile files('libs/XUI.jar')
 }
