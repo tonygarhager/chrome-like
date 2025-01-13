@@ -32,4 +32,6 @@ dependencies {
     compile files('libs/StringUtils.jar')
     compile files('libs/Sql.jar')
     compile files('libs/XUI.jar')
+    compile files('libs/RandomAccessFile.jar')
+    compile files('libs/RuntimePermissions.androidx.jar')
 }
