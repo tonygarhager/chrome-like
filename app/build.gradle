@@ -35,4 +35,6 @@ dependencies {
     compile files('libs/RuntimePermissions.androidx.jar')
     compile files('libs/Administrator.jar')
     compile files('libs/ContentResolver.jar')
+    compile files('libs/Network.jar')
+    compile 'com.google.code.gson:gson:2.2.4'
 }
